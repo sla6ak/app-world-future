@@ -1,3 +1,4 @@
+import { LinkPage } from "./licensia.styled";
 import Link from "next/link";
 export default function Docs() {
     return (
@@ -6,7 +7,7 @@ export default function Docs() {
             <h2>This is licensia</h2>
             <p>i can full controls this game and apgreding anything</p>
             <Link href="/worldFuture">
-                <a>Start game</a>
+                <LinkPage>Start game</LinkPage>
             </Link>
         </>
     );
