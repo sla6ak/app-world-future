@@ -1,4 +1,4 @@
-import "../style/global.css";
+import s from "../styles/licensia.module.css";
 import Link from "next/link";
 
 const Docs = () => {
@@ -8,7 +8,7 @@ const Docs = () => {
             <h2>This is licensia</h2>
             <p>i can full controls this game and apgreding anything</p>
             <Link href="/worldFuture">
-                <a>Start game</a>
+                <a className={s.linkStart}>Start game</a>
             </Link>
         </>
     );
