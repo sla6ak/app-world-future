@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { NextPage } from "next";
 // import Head from "next/head";
 // import styles from "../styles/Home.module.css";
@@ -7,10 +8,14 @@ const Home: NextPage = () => {
         <>
             <h1>Hello</h1>
             <p>
-                <a href="/worldFuture/auth/login">Login</a>
+                <Link href="/worldFuture/auth/login">
+                    <a>Login</a>
+                </Link>
             </p>
             <p>
-                <a href="/worldFuture/auth/registration">Registration</a>
+                <Link href="/worldFuture/auth/registration">
+                    <a>Registration</a>
+                </Link>
             </p>
         </>
         // <div className={styles.container}>

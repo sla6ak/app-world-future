@@ -1,15 +1,22 @@
+import Link from "next/link";
 export default function Registration() {
     return (
         <>
             <h1>registration</h1>
             <p>
-                <a href="/worldFuture">Home</a>
+                <Link href="/worldFuture">
+                    <a>Home</a>
+                </Link>
             </p>
             <p>
-                <a href="/worldFuture/auth/login">Login</a>
+                <Link href="/worldFuture/auth/login">
+                    <a>Login</a>
+                </Link>
             </p>
             <p>
-                <a href="/worldFuture/planet/1">Redirect to Planet</a>
+                <Link href="/worldFuture/planet/1">
+                    <a>Redirect to Planet</a>
+                </Link>
             </p>
         </>
     );
