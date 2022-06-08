@@ -1,4 +1,4 @@
-import { LinkPage } from "./licensia.styled";
+import { LinkPage } from "../styles/licensia.styled";
 import Link from "next/link";
 export default function Docs() {
     return (
