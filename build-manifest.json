@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/We75_FmRP_CiS8GoV7cGm/_buildManifest.js",
-    "static/We75_FmRP_CiS8GoV7cGm/_ssgManifest.js",
-    "static/We75_FmRP_CiS8GoV7cGm/_middlewareManifest.js"
+    "static/0kuIr-Eq2qN39m_ailWm_/_buildManifest.js",
+    "static/0kuIr-Eq2qN39m_ailWm_/_ssgManifest.js",
+    "static/0kuIr-Eq2qN39m_ailWm_/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -15,14 +15,15 @@
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
       "static/chunks/664-41844e7ff48658f9.js",
-      "static/chunks/pages/index-998c1dc95797efc8.js"
+      "static/css/ffaaa79b0904bbec.css",
+      "static/chunks/pages/index-5f8d940acb4c5429.js"
     ],
     "/_app": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/css/27d177a30947857b.css",
-      "static/chunks/pages/_app-43ac001d99fedbd3.js"
+      "static/css/42941cf201fced35.css",
+      "static/chunks/pages/_app-a8372d48043b5cd6.js"
     ],
     "/_error": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
@@ -35,7 +36,7 @@
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
       "static/chunks/664-41844e7ff48658f9.js",
-      "static/chunks/pages/worldFuture-1d9769d58c520166.js"
+      "static/chunks/pages/worldFuture-15237b624ebec42f.js"
     ],
     "/worldFuture/auth/login": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
@@ -49,13 +50,14 @@
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
       "static/chunks/664-41844e7ff48658f9.js",
-      "static/chunks/pages/worldFuture/auth/registration-7cccfc2d370f3512.js"
+      "static/chunks/pages/worldFuture/auth/registration-11476c50fb6f615c.js"
     ],
     "/worldFuture/planet/[planetId]": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/worldFuture/planet/[planetId]-15773fe25885a3f3.js"
+      "static/chunks/664-41844e7ff48658f9.js",
+      "static/chunks/pages/worldFuture/planet/[planetId]-0f000ac105023bca.js"
     ]
   },
   "ampFirstPages": []
