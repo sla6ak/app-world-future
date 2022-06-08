@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Registration() {
+const Registration = () => {
     return (
         <>
             <h1>registration</h1>
@@ -21,4 +21,5 @@ export default function Registration() {
             </p>
         </>
     );
-}
+};
+export default Registration;

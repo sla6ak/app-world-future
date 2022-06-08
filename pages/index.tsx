@@ -1,14 +1,16 @@
-import { LinkPage } from "../styles/licensia.styled";
+import "../style/global.css";
 import Link from "next/link";
-export default function Docs() {
+
+const Docs = () => {
     return (
         <>
             <h1>Welcome to my game!</h1>
             <h2>This is licensia</h2>
             <p>i can full controls this game and apgreding anything</p>
             <Link href="/worldFuture">
-                <LinkPage>Start game</LinkPage>
+                <a>Start game</a>
             </Link>
         </>
     );
-}
+};
+export default Docs;

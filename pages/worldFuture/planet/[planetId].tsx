@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-export default function Planet() {
+const Planet = () => {
     const router = useRouter();
     return (
         <>
@@ -14,4 +14,5 @@ export default function Planet() {
             </p>
         </>
     );
-}
+};
+export default Planet;
