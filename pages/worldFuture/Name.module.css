@@ -1,0 +1,52 @@
+.main {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    max-width: 90vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+@media (min-width: 1000px) {
+    .list {
+        width: 900px;
+    }
+}
+.title {
+    font-weight: 700;
+    margin: 0px auto;
+}
+.text {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+.memuLink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 100px;
+}
+.back {
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px 30px 10px;
+}
+.linkStart {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    margin: 20px auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: blueviolet;
+    background-color: rgb(192, 29, 187);
+}
