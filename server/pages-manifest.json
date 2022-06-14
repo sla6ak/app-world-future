@@ -1,11 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
   "/": "pages/index.html",
   "/worldFuture/auth/login": "pages/worldFuture/auth/login.html",
   "/worldFuture/auth/registration": "pages/worldFuture/auth/registration.html",
   "/worldFuture": "pages/worldFuture.html",
   "/worldFuture/planet/[planetId]": "pages/worldFuture/planet/[planetId].html",
-  "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
