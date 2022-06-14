@@ -15,6 +15,13 @@
         "jsx": "preserve",
         "incremental": true
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.styled.js"],
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "pages/index.styled.js",
+        "pages/worldFuture/auth/validation.js",
+        "pages/_document.js"
+    ],
     "exclude": ["node_modules"]
 }

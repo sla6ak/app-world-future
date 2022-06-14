@@ -10,7 +10,9 @@ const Docs = () => {
     return (
         <main className={s.main}>
             <div className={s.list}>
-                <h1 className={s.title}>Welcome to my game &#34;WORLD-FUTURE&#34;!</h1>
+                <h1 className={s.title}>
+                    Welcome to my game <span className={s.heroy}>&#34;WORLD-FUTURE&#34;</span>!
+                </h1>
                 <h2 className={s.titleMin}>This is licensia for player</h2>
                 <p className={s.text}>
                     i can full controls this game and apgreding anything. You should not expect that the game will
