@@ -20,7 +20,7 @@
         "**/*.ts",
         "**/*.tsx",
         "pages/index.styled.js",
-        "pages/worldFuture/auth/validation.js",
+        "utilits/validation.js",
         "pages/_document.js",
         "utilits/toast/castomToast.js",
         "utilits/toast.js",

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import s from "./auth.module.css";
-import { validationLoginSchema } from "./validation";
+import { validationLoginSchema } from "../../../utilits/validation";
 import { SetStateAction, useState } from "react";
 import { Flip, toast } from "react-toastify";
 
