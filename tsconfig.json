@@ -23,7 +23,8 @@
         "pages/worldFuture/auth/validation.js",
         "pages/_document.js",
         "utilits/toast/castomToast.js",
-        "utilits/toast.js"
+        "utilits/toast.js",
+        "pages/_app.jsx"
     ],
     "exclude": ["node_modules"]
 }

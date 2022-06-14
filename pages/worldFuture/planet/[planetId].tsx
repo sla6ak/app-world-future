@@ -6,13 +6,15 @@ const Planet = () => {
     const router = useRouter();
     return (
         <LayoutPlayer>
-            <div>planet</div>
-            {router.query.planetId}
-            <p>
-                <Link href="/worldFuture">
-                    <a>Logout</a>
-                </Link>
-            </p>
+            <>
+                <div>planet</div>
+                {router.query.planetId}
+                <p>
+                    <Link href="/worldFuture">
+                        <a>Logout</a>
+                    </Link>
+                </p>
+            </>
         </LayoutPlayer>
     );
 };

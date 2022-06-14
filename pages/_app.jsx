@@ -1,10 +1,12 @@
 import "../styles/globals.css";
 import "react-toastify/dist/ReactToastify.css";
-import type { AppProps } from "next/app";
+// import type { AppProps } from "next/app";
 import Head from "next/head";
 import { ToastContainer, Zoom } from "react-toastify";
+import { PersistGate } from "redux-persist/integration/react";
+import { persistor } from "../redux/store";
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
+const MyApp = ({ Component, pageProps }) => {
     return (
         <>
             <Head>
@@ -23,7 +25,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 theme="dark"
                 transition={Zoom}
             />
-            <Component {...pageProps} />
+            <PersistGate loading={null} persistor={persistor}>
+                <Component {...pageProps} />
+            </PersistGate>
         </>
     );
 };
