@@ -24,7 +24,7 @@
         "pages/_document.js",
         "utilits/toast/castomToast.js",
         "utilits/toast.js",
-        "pages/_app.jsx"
+        "pages/_app.tsx"
     ],
     "exclude": ["node_modules"]
 }

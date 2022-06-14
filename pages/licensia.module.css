@@ -7,29 +7,6 @@
     box-shadow: blueviolet;
     background-color: rgb(192, 29, 187);
 }
-.main {
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: rgb(30, 30, 30);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.list {
-    background-color: rgb(30, 30, 30);
-    padding: 10px;
-    max-width: 90vw;
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    color: aliceblue;
-}
-@media (min-width: 1000px) {
-    .list {
-        width: 900px;
-    }
-}
 .title {
     font-weight: 700;
     margin: 0px auto;

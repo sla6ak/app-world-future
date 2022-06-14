@@ -6,7 +6,7 @@ import { curentUser, curentToken } from "./sliceAuth";
 
 // ***********************local*************************
 const tokenPersistConfig = {
-    key: "root", //это ключь под которым мы сохраняем сторе
+    key: "worldFuture-token", //это ключь под которым мы сохраняем сторе
     storage,
     whitelist: ["token"], // этот ключь вытягивает уже из slice
 };
@@ -30,4 +30,4 @@ export const store = configureStore({
         }).concat(authApi.middleware),
 });
 
-export const persistor = persistStore(store); // это параметры для обертки приложения в индексе
+export const persistor = persistStore(store);
