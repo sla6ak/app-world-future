@@ -2,6 +2,7 @@ import Link from "next/link";
 import s from "./auth.module.css";
 import { validationLoginSchema } from "./validation";
 import { SetStateAction, useState } from "react";
+import { toast } from "react-toastify";
 
 const Registration = () => {
     const [email, setEmail] = useState("");
@@ -23,7 +24,7 @@ const Registration = () => {
         try {
             const valid = await validationLoginSchema.validate({ email, password });
         } catch (error) {
-            console.error(error);
+            toast.warn(`${error}`);
         }
     };
     return (
@@ -38,20 +39,29 @@ const Registration = () => {
                     <label className={s.label}>
                         Full-name:
                         <input
+                            required
                             type="text"
                             name="fullName"
-                            value={password}
+                            value={name}
                             onChange={handleName}
                             className={s.textInput}
                         />
                     </label>
                     <label className={s.label}>
                         Email:
-                        <input type="text" name="email" value={email} onChange={handleEmail} className={s.textInput} />
+                        <input
+                            required
+                            type="text"
+                            name="email"
+                            value={email}
+                            onChange={handleEmail}
+                            className={s.textInput}
+                        />
                     </label>
                     <label className={s.label}>
                         Password:
                         <input
+                            required
                             type="text"
                             name="password"
                             value={password}
@@ -63,7 +73,7 @@ const Registration = () => {
                 </form>
 
                 <p className={s.question}>
-                    <span>Do you have register?</span>
+                    <span>Do you have login?</span>
                     <Link href="/worldFuture/auth/login">
                         <a className={s.linkLogin}>Login</a>
                     </Link>

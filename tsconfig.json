@@ -21,7 +21,9 @@
         "**/*.tsx",
         "pages/index.styled.js",
         "pages/worldFuture/auth/validation.js",
-        "pages/_document.js"
+        "pages/_document.js",
+        "utilits/toast/castomToast.js",
+        "utilits/toast.js"
     ],
     "exclude": ["node_modules"]
 }

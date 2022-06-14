@@ -1,8 +1,8 @@
 import Link from "next/link";
 import s from "./auth.module.css";
 import { validationLoginSchema } from "./validation";
-import * as yup from "yup";
 import { SetStateAction, useState } from "react";
+import { Flip, toast } from "react-toastify";
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");
@@ -20,7 +20,7 @@ const LoginPage = () => {
         try {
             const valid = await validationLoginSchema.validate({ email, password });
         } catch (error) {
-            console.error(error);
+            toast.warn(`${error}`);
         }
     };
 
@@ -34,11 +34,19 @@ const LoginPage = () => {
                 <form onSubmit={onSubmitRegister} className={s.form}>
                     <label className={s.label}>
                         Email:
-                        <input type="text" name="email" value={email} onChange={handleEmail} className={s.textInput} />
+                        <input
+                            required
+                            type="text"
+                            name="email"
+                            value={email}
+                            onChange={handleEmail}
+                            className={s.textInput}
+                        />
                     </label>
                     <label className={s.label}>
                         Password:
                         <input
+                            required
                             type="text"
                             name="password"
                             value={password}
@@ -49,7 +57,7 @@ const LoginPage = () => {
                     <input type="submit" value="Submit" className={s.saubmitButton} />
                 </form>
                 <p className={s.question}>
-                    <span>Do you have login?</span>
+                    <span>You don&#39;t have a login?</span>
                     <Link href="/worldFuture/auth/registration">
                         <a className={s.linkLogin}>Registration</a>
                     </Link>
