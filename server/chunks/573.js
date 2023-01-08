@@ -15,7 +15,7 @@ exports.modules = {
 /* harmony import */ var _reduxjs_toolkit_query_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4335);
 /* harmony import */ var _reduxjs_toolkit_query_react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reduxjs_toolkit_query_react__WEBPACK_IMPORTED_MODULE_0__);
 
-const PORT = process.env.PORT || "https://world-future.herokuapp.com";
+const PORT = process.env.PORT || "https://api-world-future.onrender.com";
 // Define a service using a base URL and expected endpoints
 const authApi = (0,_reduxjs_toolkit_query_react__WEBPACK_IMPORTED_MODULE_0__.createApi)({
     reducerPath: "authApi",
